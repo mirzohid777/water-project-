@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+
+/* home start */
+
+/* header start */
+
+
+header {
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0D99F0;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    width: 150px;
+    height: 30px;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+/* header end */
+
+
+/* main start */
+main {
+    padding: 30px; 
+    margin: 0px;
+    background: #2893eb;
+}
+
+.water-infarmation{
+    width: 1300px;
+    height: 930px;
+    background-color: white;
+    margin: 0px 70px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.water-infarmation:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.water-tex p{
+    width: 500px;
+}
+
+.water-infarmation h2{
+    color: #0D99F0;
+}
+
+.main-hamkorlar {
+    width: 1100px;
+    height: 350px;
+    background-color: white;
+    margin: 100px 170px;
+    border-radius: 20px;
+}
+
+.main-hamkorlar:hover{
+    background-color: gainsboro;
+}
+
+.main-hamkorlar h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.yutuqlar {
+    background-color: gainsboro;
+    width: 980px;
+    height: 200px;
+    margin: 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+.srtefekat {
+    width: 1000px;
+    /* boshlang‘ich o‘lcham */
+    transition: transform 0.3s ease;
+    /* yumshoq animatsiya */
+}
+
+.srtefekat:hover {
+    transform: scale(1.5);
+    /* ustiga borganda 1.5 marta kattalashadi */
+}
+
+
+.main-hydalife-haqida {
+    width: 1300px;
+    height: 900px;
+    background-color: white;
+    margin: 30px 70px;
+    border-radius: 50px;
+}
+
+.main-hydalife-haqida:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.main-hydalife-haqida h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.kampaniya-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kampaniya-text p {
+    margin-top: 50px;
+    width: 1200px;
+    font-size: 20px;
+    color: gray;
+}
+
+.kampaniya-text p:hover {
+    color: black;
+    font-size: 20px;
+}
+
+.kampaniya-text img {
+    margin-top: 40px;
+}
+
+span {
+    color: #0D99F0;
+}
+
+
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 50px 200px;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track a{
+    display: flex;
+}
+
+.carousel img {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    /* hover animatsiya */
+}
+
+.carousel img:hover {
+    transform: scale(1.2);
+    /* ustiga borganda kattalashadi */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.main-vdyo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.main-vidyo-inmarmation{
+    width: 450px;
+}
+/* main end */
+
+
+
+/* footer start */
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-box a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.footer-box {
+    display: flex;
+    gap: 10px;
+}
+
+/* footer end */

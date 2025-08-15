@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      background: #2893eb;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+
+/* home start */
+
+/* header start */
+
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0D99F0;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    width: 150px;
+    height: 30px;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.work{
+    width: 170px;
+    height: 30px;
+    padding: 0px;
+}
+
+select:hover {
+    background-color: #F0F2F5;
+    color: black;
+}
+
+/* header end */
+
+
+/* main start */
+.main-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-img img{
+    border-radius: 10px;
+    width: 250px;
+}
+
+.main-infarmation{
+    width: 1350px;
+    height: 600px;
+    margin: 50px 100px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hydralife{
+    width: 400px;
+}
+
+.main-yerkasizberish{
+    display: flex;
+    justify-content: space-around;
+}
+
+.yetkasib-berish-img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.img-main{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+
+/* button start */
+/* From Uiverse.io by abuayaan01 */ 
+.button {
+  background-color: #000;
+  border: 0px;
+  outline: 0px;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.liquid {
+  background-color: #2893eb;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 5px -5px 25px #104e81,
+  inset -5px 0px 25px #104e81;
+}
+
+.liquid::after {
+  content: '';
+  width: 450px;
+  height: 400px;
+  background: #104e81;
+  z-index: 1;
+  position: absolute;
+  left: -110px;
+  top: -380px;
+  border-radius: 45%;
+  animation: animate 5s linear 2s infinite;
+}
+
+.liquid::before {
+  content: '';
+  width: 450px;
+  height: 400px;
+  background-color: rgb(68, 160, 235);
+  z-index: 1;
+  position: absolute;
+  left: -110px;
+  top: -380px;
+  border-radius: 40%;
+  animation: animate 5s linear 1.8s infinite;
+}
+
+.btn-txt {
+  position: relative;
+  z-index: 1;
+  font-size: 22px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* button end */
+
+/* carusel start */
+/* carusel end */
+/* main end */
+
+
+/* footer start */
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 220px;
+}
+.footer-box a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.footer-box{
+    display: flex;
+    gap: 10px;
+}
+/* footer end */
